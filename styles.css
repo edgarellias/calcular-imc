@@ -26,6 +26,11 @@ body input:focus, textarea:focus{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    background-color: rgb(224, 242, 253);
     border-radius: 10px;
 }
+@media screen and (max-width: 400px){
+    .container {
+        margin: 50px 30px;
+    }
+}
 .container h1, p {
     margin-bottom: 20px;
 }
