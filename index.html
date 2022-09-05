@@ -14,22 +14,24 @@
         <h1>Calcular IMC</h1>
         <p>Preencha seus dados para calcular o IMC</p>
         <div class="container__inputContainer">
+            <form>
             <div class="container__input">
                 <label for="age" name="age">Idade:</label>
-                <input type="number" name="age" id="age" placeholder="Ex:32">
+                <input type="number" name="age" id="age" placeholder="Ex:32" required>
             </div>
             <div class="container__input">
                 <label for="height" name="height">Altura em cm:</label>
-                <input type="number" name="height" id="height" placeholder="Ex:165">
+                <input type="number" name="height" id="height" placeholder="Ex:165" required>
             </div>
             <div class="container__input">
                 <label for="weight" name="weight">Peso em kg:</label>
-                <input type="number" name="weight" id="weight" placeholder="Ex:62">
+                <input type="number" name="weight" id="weight" placeholder="Ex:62" required>
             </div>
             <button id="container__button">Calcular</button>
+        </form>
         </div>
         <span>Resultado do cálculo: </span>
-        <p id="container__result">Olá</p>
+        <p id="container__result"></p>
     </div>
     <script src="scripts.js"></script>
 </body>

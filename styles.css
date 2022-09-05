@@ -19,7 +19,7 @@ body input:focus, textarea:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-left: 15px;
     width: 300px;
     height: 500px;
     margin: 50px auto;
@@ -52,6 +52,7 @@ body input:focus, textarea:focus{
 }
 
 .container__input label {
+    margin-bottom: 3px;
     font-weight: bold;
 }
 
@@ -80,4 +81,9 @@ body input:focus, textarea:focus{
 .container span {
     margin-top: 10px;
     font-weight: bold;
+}
+
+#container__result {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
